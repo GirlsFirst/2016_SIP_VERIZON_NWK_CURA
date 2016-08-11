@@ -49,6 +49,12 @@ function ateFood()
 	}
 }
 
+function walked()
+{
+	stressLevel--;
+	updateProgress();
+}
+
 //gives information and calls ateFood() to decrease stressLevel
 function chocolateInfo()
 {
