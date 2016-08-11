@@ -22,6 +22,7 @@
 		</script>
 		
 		<!--stress bar-->
+		<!--
 		<div class="container">
   			<h3>Stress Level:</h3>
   			<div class="progress">
@@ -30,27 +31,22 @@
     			</div>
   			</div>
 		</div>
+		-->
 
-		
-		<!--CALL updateProgress-->
+		<div id="myProgress">
+  			<div id="myBar"></div>
+		</div>
+
+		<!--sets the progress bar initially-->
 		<script src="../js/index.js"></script>
 		<script>
-    		updateProgress();
+    		setBar();
 		</script>
-		
 
 		<!--foods-->
 		<img src=""  class="food" id="Dark Chocolate" alt="Dark Chocolate" height="40" width="40" onclick="chocolateInfo()">
 		<img src=""  class="food" id="Blueberries" alt="Blueberries" height="40" width="40" onclick="blueberriesInfo()">
 		<img src=""  class="food" id="Avocado" alt="Avocado" height="40" width="40" onclick="avocadoInfo()">
 		<img src=""  class="food" id="Veges" alt="Veges" height="40" width="40" onclick="vegesInfo()">
-		
-
-		<script type="text/javascript" src="../js/index.js"></script>
-
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</body>
 </html>
