@@ -51,8 +51,9 @@ function timer()
 //  calls a method that changes things accordingly 
 function goBack()
 {
-	window.location.href = 'exercise.html';
 	if(done)
-		walked();
+		var stress = sessionStorage.stress - 1;
+		sessionStorage.setItem("stress", stress)
+	window.location.href = 'exercise.html';
 }
 
