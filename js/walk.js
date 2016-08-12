@@ -53,6 +53,6 @@ function goBack()
 {
 	window.location.href = 'exercise.html';
 	if(done)
-		walked();
+		exercised();
 }
 
