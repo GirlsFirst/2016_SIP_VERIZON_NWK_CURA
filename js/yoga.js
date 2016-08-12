@@ -7,6 +7,8 @@ function backToExercise()
 //returns users to yoga screen
 function backToYoga()
 {
+	var stress = sessionStorage.stress - 1;
+	sessionStorage.setItem("stress", stress);
 	window.location.href = 'yoga.html';
 }
 

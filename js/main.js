@@ -1,5 +1,11 @@
 var stressLevel = sessionStorage.stress;
 
+//on load, set stress level
+function setup()
+{
+	stressLevel = sessionStorage.stress;
+}
+
 // chooses the appropriate metus image for the current stress level
 function pickImg(){
 	var img;
@@ -14,7 +20,7 @@ function pickImg(){
 function setBar()
 {
 	var elem = document.getElementById("myBar");
-	var width = sessionStorage.stress*10;
+	var width = stressLevel*10;
 	elem.style.width = width + '%';
 }
 
