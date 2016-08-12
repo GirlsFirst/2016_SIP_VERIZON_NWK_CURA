@@ -1,12 +1,67 @@
-#myProgress {
-    position: relative;
-    width: 100%;
-    height: 30px;
-    background-color: grey;
+body {
+	background-color: background: rgb(252,241,90);
+background: -moz-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgb(252,241,90)), color-stop(100%, rgb(255,183,66)));
+background: -webkit-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+background: -o-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+background: -ms-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+background: linear-gradient(to right, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf15a', endColorstr='#ffb742', GradientType=1 );;
 }
-#myBar {
-    position: absolute;
-    width: 1%;
-    height: 100%;
-    background-color: green;
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.informationbar) {
+    background-color: #111;
+}
+
+.informationbar {
+background-color:#4CAF50;
+}
+.metus{
+
+}
+.excersie{
+	width:"100";
+	float: left; 
+	margin: 0px 15px 15px 0px;
+
+}
+.datafood{
+	width:"100";
+	float: center;
+	margin: ;
+}
+.meditation{
+	width:"100";
+	float: center;
+	margin: ;
+}
+.connect{
+	width:"100";
+	float: right;
+	margin: 0px 0px 15px 15px;
+}
+
+#rectangle{
+    width:200px;
+    height:100px;
+    background:blue;
 }
