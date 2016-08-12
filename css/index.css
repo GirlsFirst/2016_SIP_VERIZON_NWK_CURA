@@ -81,3 +81,8 @@ background-color:#4CAF50;
 .heading {
 	color: blue;
 }
+
+.btn{
+    width: 40px;
+    height: 40px;
+}
