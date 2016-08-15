@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.example.hello"
+    versionCode = "1" 
+    version     = "1.0.0" >
+   <name>CURA</name>
+    <description>
+            A mobile guide to the CURA. 
+    </description>
+    <author href="https://cura.org" email="support@cura.org">
+             KAM 
+    </author>
+    
+    <platform name="android"/>
+    <preference name="phonegap-version" value="cli-6.1.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <!--<preference name="target-device" value="universal"/>
+    <preference name="deployment-target" value="7.0"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="prerendered-icon" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="ios-statusbarstyle" value="default"/>
+    <preference name="StatusBarStyle" value="default" />
+    -->
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-installLocation" value="auto" />
+    
+       <platform name="android">
+        <icon src="res/icon/android/drawable-ldpi-icon" qualifier="ldpi"/>
+        <icon src="res/icon/android/drawable-mdpi-icon" qualifier="mdpi"/>
+        <icon src="res/icon/android/drawable-hdpi-icon" qualifier="hdpi"/>
+        <icon src="res/icon/android/drawable-xhdpi-icon" qualifier="xhdpi"/>
+        <icon src="res/icon/android/drawable-xxhdpi-icon" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/drawable-xxxhdpi-icon" qualifier="xxxhdpi"/>
+      </platform>
+      
+      <platform name="android">
+        <splash src="res/screen/android/drawable-port-ldpi-screen" qualifier="ldpi"/>
+        <splash src="res/screen/android/drawable-port-mdpi-screen" qualifier="mdpi"/>
+        <splash src="res/screen/android/drawable-port-hdpi-screen" qualifier="hdpi"/>
+        <splash src="res/screen/android/drawable-port-xhdpi-screen" qualifier="xhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxhdpi-screen" qualifier="xxhdpi"/>
+        <splash src="res/screen/android/drawable-port-xxxhdpi-screen" qualifier="xxxhdpi"/>
+      </platform>
+      
+      <preference name="permissions" value="none"/>
+      <access origin="*" subdomains="true"/>
+      
+      <allow-intent href="http://*/*"/>
+      <allow-intent href="https://*/*"/>
+      <allow-intent href="tel:*"/>
+      <allow-intent href="sms:*"/>
+      <allow-intent href="mailto:*"/>
+      <allow-intent href="geo:*"/>
+      <platform name="android">
+        <allow-intent href="market:*"/>
+      </platform>
+      
+      
+</widget>

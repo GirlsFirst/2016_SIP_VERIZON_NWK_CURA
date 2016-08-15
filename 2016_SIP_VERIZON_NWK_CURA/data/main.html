@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>CURA</title>
+
+	    <link rel="stylesheet" type="text/css" href="../css/main.css">
+	    <script type="text/javascript" src="../js/main.js"></script>
+	</head>
+
+	<body onload="setup()">
+		<!--Home screen-->
+			<!-- Metus-->
+			<!-- Stress Bar -->
+			<!-- option buttons -->
+		<!-- Infomation Bar -->
+		<ul class="informationbar">
+			<li><a class="checklist" onclick="location.href = 'checklist.html'">Checklist</a></li>
+			<li><a class="journal" onclick="location.href = 'journal.html'">Journal</a></li>
+			<li><a class="info" onclick="location.href = 'information.html'">More Information</a></li>
+		</ul>
+		<h4>Stress Level:</h4>
+		<div id="myProgress">
+  			<div id="myBar"></div>
+		</div>
+
+		<!--sets the progress bar initially-->
+		<script>
+    		setBar();
+		</script>
+
+			<!-- Metus-->
+			<img src= "../cura_images/metus-1.png" id="metus" alt="Metus" width=275 height=229>
+		
+			<!-- option buttons -->
+
+		<div>
+			<img src="../cura_images/walk_icon.png" onclick="location.href = 'exercise.html'"; class="exercise"/>
+			<img src="../cura_images/food_icon.png" onclick="location.href = 'food.html'"; class="datafood"/>
+			<img src="../cura_images/calm_icon.png" onclick="location.href = 'meditation.html'"; class="meditation"/>
+			<img src="../cura_images/friend_icon.png" onclick="location.href = 'connect.html'"; class="connect"/>
+		</div>
+	</body>
+
+</html>
