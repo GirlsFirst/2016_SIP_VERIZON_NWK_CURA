@@ -10,3 +10,37 @@
     height: 100%;
     background-color: green;
 }
+
+.heading {
+	color: blue;
+}
+@font-face {
+    font-family: caviar;
+    src: url(caviardreams.ttf);
+}
+
+h2 {
+    font-family: caviar, sans-serif;
+}
+
+body {
+    background-image: url('../cura_images/cura_open.png');
+    background-size: cover;
+}
+
+div { 
+    text-align: center;
+    position: fixed;
+    top: 40%;
+}
+div img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+

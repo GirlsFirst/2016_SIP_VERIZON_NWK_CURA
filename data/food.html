@@ -5,48 +5,42 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	    <title>food</title>
 
-	    <link rel="stylesheet" type="text/css" href="../css/index.css">
-
-	    <link  rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+	    <link rel="stylesheet" type="text/css" href="../css/food.css">
+	    <script src="../js/main.js"></script>
+	    <script src="../js/food.js"></script>
 	</head>
 
-	<body>
-		<!--Metus-->
-		
-		<img src=""  id="metus" alt="Metus" height="70" width="70">
+	<body onload="setup()">
+		<!--Back button-->
+		<button class="back" height="70" width="70" onclick="location.href = 'main.html'">Go Back</button>
+
+
+		<!--Section heading-->
+		<h1 class="heading">Food</h1>
+
 		<!--CALL pickImg()-->
-		<script src="../js/index.js"></script>
 		<script>
     		pickImg();
 		</script>
 		
-		<!--stress bar-->
-		<!--
-		<div class="container">
-  			<h3>Stress Level:</h3>
-  			<div class="progress">
-    			<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%" id="progressBar">
-      			<span class="sr-only"></span>
-    			</div>
-  			</div>
-		</div>
-		-->
-
+		<h4>Stress Level:</h4>
 		<div id="myProgress">
   			<div id="myBar"></div>
 		</div>
 
 		<!--sets the progress bar initially-->
-		<script src="../js/index.js"></script>
 		<script>
     		setBar();
 		</script>
 
+		<img src= "../cura_images/metus-5.png" id="metus" alt="Metus" width=275 height=229>
+
 		<!--foods-->
-		<img src=""  class="food" id="Dark Chocolate" alt="Dark Chocolate" height="40" width="40" onclick="chocolateInfo()">
-		<img src=""  class="food" id="Blueberries" alt="Blueberries" height="40" width="40" onclick="blueberriesInfo()">
-		<img src=""  class="food" id="Avocado" alt="Avocado" height="40" width="40" onclick="avocadoInfo()">
-		<img src=""  class="food" id="Veges" alt="Veges" height="40" width="40" onclick="vegesInfo()">
+		<div>
+			<img src="../cura_images/chocolate.png"  class="food" id="Dark Chocolate" alt="Dark Chocolate" onclick="chocolateInfo()">
+			<img src="../cura_images/blueberries.png"  class="food" id="Blueberries" alt="Blueberries" onclick="blueberriesInfo()">
+			<img src="../cura_images/avocado.png"  class="food" id="Avocado" alt="Avocado" onclick="avocadoInfo()">
+			<img src="../cura_images/greens.png"  class="food" id="Veges" alt="Veges" onclick="vegesInfo()">
+		</div>
 	</body>
 </html>
