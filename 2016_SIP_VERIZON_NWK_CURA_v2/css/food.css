@@ -1,0 +1,64 @@
+body{
+	background-image: url("../cura_images/cura_bg.png");
+	background-size: cover;
+}
+
+@font-face {
+    font-family: caviarb;
+    src: url(caviardreams_bold.ttf);
+}
+@font-face {
+    font-family: caviar;
+    src: url(caviardreams.ttf);
+}
+
+.back{
+	background-color: white;
+	border-radius: 5px;
+	font-family: caviar;
+}
+
+.img { 
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 2%;
+    text-align: center;
+    position: absolute;
+}
+div img{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+}
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+h4 {
+	font-family: caviar;
+	color: #ff9999;
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #ff9999;
+}
+#myBar {
+    position: absolute;
+    width: 1%;
+    height: 100%;
+    background-color: #f23c57;
+}
+#metus{
+	position: fixed;
+    top: 40%;
+    left: 35%;
+}
+.heading {
+	font-family: caviarb;
+	color: #22a552;
+}
