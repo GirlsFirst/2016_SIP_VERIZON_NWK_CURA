@@ -10,16 +10,26 @@ function setup()
 function pickImg(){
 	var img;
 	//choose img
+<<<<<<< HEAD
 	var images = ["../cura_images/metus-5.png", "../cura_images/metus-4.png", "../cura_images/metus-3.png", "../cura_images/metus-2.png", "../cura_images/metus-1.png"]
 	var index = (Number(stressLevel) + (stressLevel%2))/2 - 1
     if (index < 0)
         index = 0;
+=======
+	var images = ["../img/metus1.jpg", "../img/metus2.jpg", "../img/metus3.jpg", "../img/metus4.jpg", "../img/metus5.jpg"]
+	var index = (stressLevel + (stressLevel%2))/2 - 1
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 	img = images[index];
 	document.getElementById("metus").setAttribute("src",img);
 }
 
 //sets progress bar initially
+<<<<<<< HEAD
 function setBar(){
+=======
+function setBar()
+{
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 	var elem = document.getElementById("myBar");
 	var width = stressLevel*10;
 	elem.style.width = width + '%';

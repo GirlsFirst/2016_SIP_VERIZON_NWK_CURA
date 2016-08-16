@@ -1,4 +1,5 @@
 body{
+<<<<<<< HEAD
 	background-image: url("../cura_images/cura_open.png");
   background-size: cover;
 }
@@ -12,6 +13,17 @@ body{
     src: url(caviardreams_bold.ttf);
 }
 
+=======
+	background: rgb(252,241,90);
+	background: -moz-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgb(252,241,90)), color-stop(100%, rgb(255,183,66)));
+	background: -webkit-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+	background: -o-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+	background: -ms-linear-gradient(left, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+	background: linear-gradient(to right, rgb(252,241,90) 0%, rgb(255,183,66) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcf15a', endColorstr='#ffb742', GradientType=1 );
+}
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 .metus{
 
 }
@@ -21,12 +33,21 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   font-size: 502.5%;
   font-family: caviar;
   color: #22a552;
 }
 
 
+=======
+   font-size: 502.5%;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 
 table {
     border-collapse: collapse;
@@ -38,10 +59,17 @@ th {
 }
 h2{
  	font-size: 400%;
+<<<<<<< HEAD
  	font-family: caviarb;
  	color: white;
  	background-color: #f23c57;
 }
+=======
+ 	font-family: Impact, Charcoal, sans-serif;
+ 	color: white;
+ 	background-color: rgb(0,0,0);
+  }
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 .walk{
 	-webkit-column-count: 2; 
     -moz-column-count: 2; 
@@ -53,7 +81,16 @@ h2{
     -moz-column-rule-style: solid; 
     column-rule-style: solid;
 }
+<<<<<<< HEAD
 
+=======
+h3{
+    font-size: 400%;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
+ 	background-color: rgb(0,0,0);
+}
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 .yoga{
  -webkit-column-count: 2; 
      -moz-column-count: 2; 
@@ -66,4 +103,12 @@ h2{
     column-rule-style: solid;
 }
 
+<<<<<<< HEAD
+=======
+.btn{
+  width: 40px;
+    height: 40px;
+}
+
+>>>>>>> 35c5e30ff238f3777ef83bd2f1ba8de0abc0549c
 
