@@ -1,8 +1,13 @@
+var messageTxt = "Good job! You're doing great!";
+
 function setup()
 {
 	document.getElementById("checkbox1").checked = (sessionStorage.box1 == "true");
 	document.getElementById("checkbox2").checked = (sessionStorage.box2 == "true");
 	document.getElementById("checkbox3").checked = (sessionStorage.box3 == "true");
+
+	if (sessionStorage.message == "true")
+		document.getElementById("message").innerHTML = messageTxt;
 }
 
 function changeCheck(index)
@@ -13,4 +18,10 @@ function changeCheck(index)
 		sessionStorage.setItem(checkbox, "false");
 	else
 		sessionStorage.setItem(checkbox, "true");
+
+	if(sessionStorage.box1 == "true" && sessionStorage.box2 == "true" && sessionStorage.box3 == "true")
+	{
+		sessionStorage.setItem("message", "true")
+		document.getElementById("message").innerHTML = messageTxt;
+	}	
 }

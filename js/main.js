@@ -12,7 +12,7 @@ function pickImg(){
 	//choose img
 	var images = ["../cura_images/metus-5.png", "../cura_images/metus-4.png", "../cura_images/metus-3.png", "../cura_images/metus-2.png", "../cura_images/metus-1.png"]
 	var index = (Number(stressLevel) + (stressLevel%2))/2 - 1
-    if (index == -1)
+    if (index < 0)
         index = 0;
 	img = images[index];
 	document.getElementById("metus").setAttribute("src",img);
