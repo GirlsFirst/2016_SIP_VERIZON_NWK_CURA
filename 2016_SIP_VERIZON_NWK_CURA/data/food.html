@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>food</title>
+
+	    <link rel="stylesheet" type="text/css" href="../css/food.css">
+	    <script src="../js/main.js"></script>
+	    <script src="../js/food.js"></script>
+	</head>
+
+	<body onload="setup()">
+		<!--Back button-->
+		<button class="back" height="70" width="70" onclick="location.href = 'main.html'">Go Back</button>
+
+
+		<!--Section heading-->
+		<h1 class="heading">Food</h1>
+
+		<!--CALL pickImg()-->
+		<script>
+    		pickImg();
+		</script>
+		
+		<h4>Stress Level:</h4>
+		<div id="myProgress">
+  			<div id="myBar"></div>
+		</div>
+
+		<!--sets the progress bar initially-->
+		<script>
+    		setBar();
+		</script>
+
+		<img src= "../cura_images/metus-5.png" id="metus" alt="Metus" width=275 height=229>
+
+		<!--foods-->
+		<div>
+			<img src="../cura_images/chocolate.png"  class="food" id="Dark Chocolate" alt="Dark Chocolate" onclick="showStress()">
+			<img src="../cura_images/blueberries.png"  class="food" id="Blueberries" alt="Blueberries" onclick="blueberriesInfo()">
+			<img src="../cura_images/avocado.png"  class="food" id="Avocado" alt="Avocado" onclick="avocadoInfo()">
+			<img src="../cura_images/greens.png"  class="food" id="Veges" alt="Veges" onclick="vegesInfo()">
+		</div>
+	</body>
+</html>
