@@ -1,0 +1,48 @@
+body {
+	background-image: url("../cura_images/clipboard_background.png");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-size: 25px;
+}
+
+input{
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	
+}
+@font-face {
+    font-family: caviarb;
+    src: url(caviardreams_bold.ttf);
+}
+@font-face {
+    font-family: caviar;
+    src: url(caviardreams.ttf);
+}
+
+#header
+{
+	font-family: caviarb;
+	display: block;
+	margin-top: 70px;
+	text-align: center;
+
+}
+
+.checkbox
+{
+	font-family: caviar;
+	font-size: 17px;
+	display: block;
+	margin-top: 80px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.back{
+	background-color: white;
+	border-radius: 5px;
+	font-family: caviar;
+	margin-top: 5%;
+}

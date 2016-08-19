@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <title>Journal</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" text ="text/css" href="../css/journal.css">
+
+  </head>
+  <body onload="setup()">
+    <button class="back" height="70" width="70" onclick="location.href = 'main.html'">Go Back</button>
+    <form>
+      <p> Whats Up? </p>
+      <p id="desc"> Feel free to vent here, write down whatever comes to mind, put your thoughts into words. It'll disappear once you leave this page.</p>
+      <input class="op" type="radio" name="mood" value="Happy" checked> Happy<br>
+    	<input class="op" type="radio" name="mood" value="Sad"> Okay<br>
+    	<input class="op" type="radio" name="mood" value="Okay"> Sad<br>
+      <input class="op" type="radio" name="mood" value="Okay"> Other<br>
+    	<textarea rows ="20", cols ="50">	
+    	</textarea>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+	background-image: url("../cura_images/cura_bg.png");
+	background-size: cover;
+}
+@font-face {
+    font-family: caviarb;
+    src: url(caviardreams_bold.ttf);
+}
+@font-face {
+    font-family: caviar;
+    src: url(caviardreams.ttf);
+}
+
+.back {
+	background-color: white;
+	border-radius: 5px;
+	font-family: caviar;
+    margin-top: 5%;
+}
+
+#next {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#msg {
+	font-family: caviar;
+}

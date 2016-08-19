@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../css/checklist.css">
+		<script src="../js/checklist.js"></script>
+		<meta name="viewpoint" content="width=device-width, content=height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	</head>
+	<body onload="setup()">
+		<!--Back button-->
+		<button class="back" height="70" width="70" onclick="location.href = 'main.html'">Go Back</button>
+
+		<h2 id="header"> Did you... </h2>
+
+		<div class="checkbox">
+			<input onclick="changeCheck(1)" id="checkbox1" type="checkbox">  Get a good night's sleep?<br>
+		</div>
+
+		<div class="checkbox">
+			<input onclick="changeCheck(2)" id="checkbox2" type="checkbox">  Drink water today?</label><br>
+		</div>
+
+		<div class="checkbox">
+			<input onclick="changeCheck(3)" id="checkbox3" type="checkbox">  Exercise a little bit?</label><br>
+		</div>
+
+	</body>
+</html>

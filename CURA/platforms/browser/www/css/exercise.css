@@ -1,0 +1,77 @@
+body{
+	background-image: url("../cura_images/cura_open.png");
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+@font-face {
+    font-family: caviar;
+    src: url(caviardreams.ttf);
+}
+@font-face {
+    font-family: caviarb;
+    src: url(caviardreams_bold.ttf);
+}
+.back{
+  background-color: white;
+  border-radius: 5px;
+  font-family: caviar;
+  margin-top: 5%;
+}
+
+.metus{
+
+}
+
+h1{
+  margin-top: 20%;
+	height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: caviar;
+  color: #22a552;
+}
+
+
+
+table {
+    margin-top: 33%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+h2{
+ 	font-family: caviarb;
+ 	color: white;
+ 	background-color: #f23c57;
+}
+.walk{
+	-webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid; 
+    column-rule-style: solid;
+}
+
+.yoga{
+ -webkit-column-count: 2; 
+     -moz-column-count: 2; 
+    column-count: 2;
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; 
+    -moz-column-rule-style: solid; 
+    column-rule-style: solid;
+}
+
+
